@@ -1,0 +1,46 @@
+
+.header {
+    margin-top: 30px;
+}
+.header__in {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+.header__logo {
+    display: block;
+    font-size: 0;
+    max-width: 174px;
+    img {
+        width: 100%;
+    }
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 633px;
+    width: 100%;
+    font-weight: 700;
+}
+.header__in a {
+    margin-right: 60px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.header__menu a li {
+    list-style: none;
+    margin: 0;
+}
+.header__in button {
+    background: #E7BA7A;
+    padding: 20px 27px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}

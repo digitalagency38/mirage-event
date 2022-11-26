@@ -1,0 +1,36 @@
+
+.why-us-block {
+    padding-top: 127px;
+    margin-bottom: 156px;
+}
+.why-us__in {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.why-us__item {
+    text-align: center;
+    padding: 20px 40px 18px;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: inset 15.2px -15.2px 15.2px rgba(165, 165, 165, 0.028), inset -15.2px 15.2px 15.2px rgba(255, 255, 255, 0.028);
+}
+.why-us__item h2 {
+    font-size: 20px;
+    color: #E7BA7A;
+    line-height: 150%;
+    margin-bottom: 11px;
+}
+.why-us__item p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 150%;
+    margin: 0;
+}
+.why-us-block .title {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 48px;
+}

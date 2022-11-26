@@ -1,0 +1,122 @@
+
+.organisation-block__in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.organisation-block-left {
+    width: 46%;
+    padding-top: 20px;
+}
+.organisation-block-right {
+    width: 50%;
+    position: relative;
+    top: 45px;
+}
+/* .organisation-block-right img {
+    width: 100%;
+} */
+ .organisation-block-right img:first-child {
+    width: 91%;
+    padding-top: 38px;
+    padding-left: 64px;
+} 
+.organisation-block-left h2 {
+    color: #fff;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    padding-top: 9px;
+    margin-bottom: 30px;
+}
+.organisation-block-left h2 span {
+    color: #E7BA7A;
+}
+.organisation-block-left p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    max-width: 580px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.organisation-block-left button {
+    background: #E7BA7A;
+    padding: 20px 27px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.organisation-block-left-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 465px;
+    width: 100%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social span {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 13px;
+    font-weight: 500;
+}
+.social a img:first-child {
+    margin-right: 16px;
+    margin-top: 6px;
+}
+.image-bg-1 {
+    position: absolute;
+    top: 58%;
+    left: -15%;
+    z-index: -1;
+    width: 39%;
+}
+.image-bg-2 {
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    width: 52%;
+}
+.tabs-block__around {
+    padding-right: 514px;
+}
+.tabs-block {
+    display: flex;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    margin-top: 63px;
+    background: rgba(217, 217, 217, 0.028);
+box-shadow: inset 15.2px -15.2px 15.2px rgba(165, 165, 165, 0.028), inset -15.2px 15.2px 15.2px rgba(255, 255, 255, 0.028);
+backdrop-filter: blur(17.936px);
+
+}
+.tabs-block-item {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px;
+    box-shadow: inset 15.2px -15.2px 15.2px rgb(165 165 165 / 3%), inset -15.2px 15.2px 15.2px rgb(255 255 255 / 3%);
+    /* width: 33%; */
+}
+.tabs-block-item:first-child {
+    border-radius: 10px 0 0 10px;
+}
+.tabs-block-item:last-child {
+    border-radius: 0 10px 10px 0;
+}
+.tabs-block-item span {
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
