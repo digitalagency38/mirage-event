@@ -1,6 +1,6 @@
-import Glide from '@glidejs/glide';
 import 'owl.carousel.es6';
 import $ from 'jquery';
+
 const PlacesAndcases = class PlacesAndcases {
     constructor() {}
     initPlacesSlider() {
@@ -28,7 +28,7 @@ const PlacesAndcases = class PlacesAndcases {
                 },
             }
         });
-        if (window.innerWidth > 1320) {
+        if (window.innerWidth > 1320 && $('.places-block-item').length > 4) {
             $('.places-block').find('.owl-nav').appendTo('.places-block__top .places-block__top-arrows');
         }
     }

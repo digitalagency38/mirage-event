@@ -45,6 +45,15 @@
     right: 60px;
     z-index: -2;
     transform: rotateX(-1deg) rotateY(2deg) translateZ(-300px) scale(1.3);
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('../img/sharp2.png') 50% 50% / 115% no-repeat;
+    }
     @media all and (max-width: 1500px) {
         left: 0;
         right: 0;
@@ -90,6 +99,12 @@
 }
 .places-test {
     margin-top: 100px;
+}
+.cases-block-item p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
 }
 .cases-block-item-slider {
     border-radius: 20px;
@@ -204,6 +219,13 @@
     @media all and (max-width: 1320px) {
         width: 50%;
     }
+}
+.slider-icons-item span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
 }
 .slider-icons-item img {
     margin-right: 13px;
