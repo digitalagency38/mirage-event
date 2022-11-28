@@ -10,22 +10,12 @@
                     <div class="brands-block__background rotateOnMouseMove" data-animatespeed="300"></div>
                     <div class="brands-block_in">
                     <h2>Нас выбирают</h2>
-                    <div class="brands-slider">
-                        <div class="brands-slider-item">
-                            <img src="img/brand.png" alt="brands">
-                        </div>
-                        <div class="brands-slider-item">
-                            <img src="img/brand.png" alt="brands">
-                        </div>
-                        <div class="brands-slider-item">
-                            <img src="img/brand.png" alt="brands">
-                        </div>
-                        <div class="brands-slider-item">
-                            <img src="img/brand.png" alt="brands">
-                        </div>
-                        <div class="brands-slider-item">
-                            <img src="img/brand.png" alt="brands">
-                        </div>
+                    <div class="brands-slider owl-carousel">
+                        @@for (i = 1; i < 17; i++) {
+                            <div class="brands-slider-item">
+                                <img src="img/brand.png" alt="brands">
+                            </div>
+                        }
                     </div>
                 </div>
             </div>

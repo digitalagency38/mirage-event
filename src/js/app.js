@@ -4,14 +4,20 @@ globalFunctions.isWebp();
 
 import PlacesAndcases from '../blocks/modules/places-and-cases/places-and-cases.js';
 import Services from '../blocks/modules/services/services.js';
+import Company from '../blocks/modules/company/company.js';
+import Faq from '../blocks/modules/faq/faq.js';
 
 window.placesAndCases = new PlacesAndcases();
 window.services = new Services();
+window.company = new Company();
+window.faq = new Faq();
 
 
 $(document).ready(function() {
     window.placesAndCases.init();
     window.services.init();
+    window.company.init();
+    window.faq.init();
 
     $(window).on('mousemove', function(e) {
         var x = e.clientX;

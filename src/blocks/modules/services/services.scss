@@ -51,6 +51,9 @@
     } 
 
 }
+.services-block-left-item img {
+    width: 100px;
+}
 .services-block-left-item:last-child {
     margin-bottom: 0;
 }
@@ -63,7 +66,8 @@
 .services-block-left-item-price {
     font-size: 20px;
     color: #fff;
-    width: 72%;
+    width: calc(100% - 100px);
+    box-sizing: border-box;
     padding-left: 10px;
 }
 .services-block-left-item-price .price {
@@ -109,6 +113,10 @@
     color: #fff;
     font-weight: 600;
     line-height: 36px;
+    @media all and (max-width: 1320px) {
+        font-size: 18px;
+        line-height: 150%;
+    }
 }
 .services-block-right-form button {
     border-radius: 10px;
@@ -124,6 +132,9 @@
 }
 .services-block-right-text {
     margin-top: 40px;
+    @media all and (max-width: 1320px) {
+        margin-top: 20px;
+    }
 }
 .services-block-right-text h2 {
     font-weight: 500;
@@ -131,18 +142,30 @@
     line-height: 150%;
     color: #fff;
     margin: 0;
+    @media all and (max-width: 1320px) {
+        font-size: 28px;
+        line-height: 150%;
+    }
 }
 .services-block-right-text p {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     color: #fff;
+    @media all and (max-width: 1320px) {
+        font-size: 16px;
+        line-height: 150%;
+    }
 }
 .services-block-right-text ul li {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     color: #fff;
+    @media all and (max-width: 1320px) {
+        font-size: 16px;
+        line-height: 150%;
+    }
 }
 .services-block-right-text ul {
     padding-left: 20px;

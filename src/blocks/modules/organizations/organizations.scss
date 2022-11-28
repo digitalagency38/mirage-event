@@ -35,7 +35,9 @@
     display: block;
 }
 .organisation-block-right img {
-    transform: none !important;
+    @media all and (max-width: 1320px) {
+        transform: none !important;
+    }
 }
  .organisation-block-right img:first-child{
     width: 91%;
