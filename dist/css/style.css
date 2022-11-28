@@ -1612,6 +1612,7 @@ body:after {
 
 .services-block-left-item-price {
   font-size: 20px;
+  font-weight: 500;
   color: #fff;
   width: calc(100% - 100px);
   box-sizing: border-box;
@@ -1764,7 +1765,7 @@ body:after {
 }
 
 .company-block__in p {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   line-height: 150%;
   color: #111;
@@ -1897,6 +1898,7 @@ body:after {
 
 .reviews-name {
   width: 54%;
+  font-weight: 500;
 }
 
 .reviews-logo img {
@@ -1905,7 +1907,7 @@ body:after {
 }
 
 .reviews-name span {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #253756;
@@ -1913,7 +1915,7 @@ body:after {
 }
 
 .reviews-block-bottom p {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 150%;
   color: #545454;
@@ -1976,7 +1978,7 @@ body:after {
 }
 
 .answer {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #fff;
@@ -2151,6 +2153,11 @@ body:after {
   .container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .decor {
+    width: 122px;
+    height: 122px;
   }
 
   .header__logo {

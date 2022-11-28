@@ -80,6 +80,7 @@
 }
 .reviews-name {
     width: 54%;
+    font-weight: 500;
     @media all and (max-width: 1320px) {
         order: 2;
         width: calc(100% - 121px);
@@ -90,7 +91,7 @@
     margin: 0 auto;
 }
 .reviews-name  span {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     color: #253756;
@@ -103,7 +104,7 @@
     }
 }
 .reviews-block-bottom p {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 150%;
     color: #545454;

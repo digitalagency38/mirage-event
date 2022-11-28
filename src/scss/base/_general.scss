@@ -73,6 +73,10 @@ body {
     width: 307px;
     height: 307px;
     font-size: 0;
+    @media all and (max-width: 1320px) {
+        width: 122px;
+        height: 122px;
+    }
     &__first {
         top: 784px;
         left: -115px;
