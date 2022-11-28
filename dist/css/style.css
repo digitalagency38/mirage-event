@@ -2411,7 +2411,7 @@ body:after {
   }
 
   .brands-block__background {
-    transform: rotateX(-1deg) rotateY(3deg) translateZ(-300px) translateX(20px) scale(1.4) !important;
+    transform: none !important;
   }
 
   .brands-slider {
@@ -2427,7 +2427,7 @@ body:after {
   .reviews-block__background {
     left: 30px;
     right: 30px;
-    transform: rotateX(-1deg) rotateY(3deg) translateZ(-300px) translateX(20px) scale(1.33) !important;
+    transform: none !important;
   }
 
   .reviews-block__in {
