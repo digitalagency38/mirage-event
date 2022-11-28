@@ -41,5 +41,10 @@
     "webpack": "latest",
     "webpack-stream": "latest"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "carouzel": "^1.1.2",
+    "jquery": "^3.6.1",
+    "owl.carousel.es6": "^3.0.2"
+  }
 }

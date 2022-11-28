@@ -1,21 +1,33 @@
 .services-block {
-    margin-top: 130px;
     margin-bottom: 170px;
     padding-top: 69px;
 }
 .services-block-flex {
-    display: flex;
+    display: grid;
+    grid-template-columns: 452px 1fr;
+    grid-gap: 21px;
     justify-content: space-between;
     max-width: 1363px;
-}
-.services-block-left {
-    width: 34%;
-}
-.services-block-right {
-    width: 61%;
+    @media all and (max-width: 1320px) {
+        display: block;
+    }
 }
 .services-block-right img {
     width: 100%;
+}
+.services-block-left {
+    display: grid;
+    grid-gap: 10px;
+    @media all and (min-width: 1321px) {
+        .services-block-right {
+            display: none !important;
+        }
+    }
+}
+.services-block-left ~ .services-block-right {
+    @media all and (max-width: 1320px) {
+        display: none !important;
+    }
 }
 .services-block-left-item {
     display: flex;
@@ -26,9 +38,17 @@
     box-shadow: inset 15.2px -15.2px 15.2px rgba(165, 165, 165, 0.028), inset -15.2px 15.2px 15.2px rgba(255, 255, 255, 0.028);
     backdrop-filter: blur(17.936px);
     border-radius: 20px;
-    max-width: 452px;
     box-sizing: border-box;
-    margin-bottom: 10px;
+    cursor: pointer;
+    &.isActive {
+        background: #253756;
+        img {
+            filter: brightness(10);
+        }
+    }
+    @media all and (max-width: 1320px) {
+        padding: 15px 20px;
+    } 
 
 }
 .services-block-left-item:last-child {
@@ -44,6 +64,7 @@
     font-size: 20px;
     color: #fff;
     width: 72%;
+    padding-left: 10px;
 }
 .services-block-left-item-price .price {
     font-size: 16px;
@@ -63,6 +84,9 @@
     box-shadow: inset 15.2px -15.2px 15.2px rgba(165, 165, 165, 0.028), inset -15.2px 15.2px 15.2px rgba(255, 255, 255, 0.028);
     backdrop-filter: blur(17.936px);
     border-radius: 20px;
+    &:not(.isActive) {
+        display: none;
+    }
 }
 .services-block-right-form {
     display: flex;
@@ -75,6 +99,10 @@
     backdrop-filter: blur(17.936px);
     border-radius: 10px;
     margin-top: 52px;
+    @media all and (max-width: 1320px) {
+        margin-top: 20px;
+        flex-direction: column;
+    } 
 }
 .services-block-right-form span {
     font-size: 24px;
@@ -89,6 +117,10 @@
     padding: 16px 30px;
     border: none;
     font-weight: 600;
+    @media all and (max-width: 1320px) {
+        width: 100%;
+        margin-top: 20px;
+    } 
 }
 .services-block-right-text {
     margin-top: 40px;

@@ -3,10 +3,11 @@
     width: 100%;
     margin: 0 auto;
     position: relative;
-    bottom: 196px;
+    margin: -199px auto 0;
+    perspective: 1000px;
+    transform-style: preserve-3d;
 }
-.reviews-block::before {
-    content: "";
+.reviews-block__background {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -15,6 +16,7 @@
     top: 0;
     left: 0;
     z-index: -2;
+    transform: rotateX(-1deg) rotateY(2deg) translateZ(-350px) scale(1.3);
 }
 .reviews-block__in {
     max-width: 926px;
