@@ -9,6 +9,9 @@
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
+        <div class="decor decor__first">
+            <img src="img/decor.svg" width="100%" alt="">
+        </div>
         @@include('blocks/modules/header/header.html', {})
         @@include('blocks/modules/organizations/organizations.html', {})
         @@include('blocks/modules/why-us/why-us.html', {})

@@ -39,7 +39,8 @@ const PlacesAndcases = class PlacesAndcases {
                 margin: 20,
                 nav: false,
                 dots: true,
-                items: 1,                
+                items: 1,
+                autoplay: true,          
             });
         })
     }

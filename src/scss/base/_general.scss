@@ -25,6 +25,7 @@ body {
     position: relative;
     background:  url('../img/sharp.png') 50% 0 / cover repeat;
     z-index: 2;
+    overflow: hidden;
 }
 .container {
     max-width: 1486px;
@@ -65,4 +66,27 @@ body {
     cursor: pointer;
     border: none;
     padding: 0;
+}
+
+.decor {
+    position: absolute;
+    width: 307px;
+    height: 307px;
+    font-size: 0;
+    &__first {
+        top: 784px;
+        left: -115px;
+    }
+    &__second {
+        top: -180px;
+        right: -89px;
+    }
+    &__third {
+        bottom: -250px;
+        left: -89px;
+    }
+    &__fourth {
+        bottom: -200px;
+        right: -407px;
+    }
 }

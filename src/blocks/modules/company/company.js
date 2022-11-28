@@ -26,7 +26,6 @@ const Company = class Company {
                 },
                 0 : {
                     items : 1,
-                    margin: 0
                 },
             }
         });

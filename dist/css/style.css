@@ -702,13 +702,6 @@ template {
 @font-face {
   font-family: "FuturaPT";
   font-display: swap;
-  src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT-Bold.ttf") format("ttf");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "FuturaPT";
-  font-display: swap;
   src: url("../fonts/FuturaPT-BoldObl.woff2") format("woff2"), url("../fonts/FuturaPT-BoldObl.woff") format("woff"), url("../fonts/FuturaPT-BoldObl.ttf") format("ttf");
   font-weight: 400;
 }
@@ -725,6 +718,13 @@ template {
   font-display: swap;
   src: url("../fonts/FuturaPT-BookObl.woff2") format("woff2"), url("../fonts/FuturaPT-BookObl.woff") format("woff"), url("../fonts/FuturaPT-BookObl.ttf") format("ttf");
   font-weight: 400;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT-Bold.ttf") format("ttf");
+  font-weight: 700;
 }
 
 @font-face {
@@ -887,6 +887,7 @@ body:after {
 .wrapper {
   position: relative;
   z-index: 2;
+  overflow: hidden;
 }
 
 .container {
@@ -926,6 +927,33 @@ body:after {
   cursor: pointer;
   border: none;
   padding: 0;
+}
+
+.decor {
+  position: absolute;
+  width: 307px;
+  height: 307px;
+  font-size: 0;
+}
+
+.decor__first {
+  top: 784px;
+  left: -115px;
+}
+
+.decor__second {
+  top: -180px;
+  right: -89px;
+}
+
+.decor__third {
+  bottom: -250px;
+  left: -89px;
+}
+
+.decor__fourth {
+  bottom: -200px;
+  right: -407px;
 }
 
 .header {
@@ -1265,6 +1293,7 @@ body:after {
   padding-top: 111px;
   padding-bottom: 150px;
   overflow: hidden;
+  z-index: 2;
 }
 
 .places-and-cases-block__container {
@@ -1524,6 +1553,7 @@ body:after {
 .services-block {
   margin-bottom: 170px;
   padding-top: 69px;
+  position: relative;
 }
 
 .services-block-flex {
@@ -1678,7 +1708,6 @@ body:after {
 .company-block {
   position: relative;
   padding-bottom: 130px;
-  overflow: hidden;
 }
 
 .company-block .owl-dots {
@@ -1753,11 +1782,13 @@ body:after {
   transform-style: preserve-3d;
 }
 
+.no-webp .brands-block__background{
+  background: #1B4379 url("../img/sharp2.png") 50% 50%/115% no-repeat; }
+
 .brands-block__background {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #1B4379;
   border-radius: 60px;
   top: 0;
   left: 0;
@@ -2528,3 +2559,5 @@ body:after {
 .webp .wrapper{ background: url(../img/sharp.webp) 50% 0/cover repeat; }
 
 .webp .places-and-cases-block__background:after{ background: url(../img/sharp2.webp) 50% 50%/115% no-repeat; }
+
+.webp .brands-block__background{ background: #1B4379 url(../img/sharp2.webp) 50% 50%/115% no-repeat; }
