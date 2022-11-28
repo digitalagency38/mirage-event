@@ -2409,7 +2409,7 @@ body:after {
   }
 
   .brands-block__background {
-    transform: rotateX(-1deg) rotateY(3deg) translateZ(-300px) translateX(20px) scale(1.33) !important;
+    transform: rotateX(-1deg) rotateY(3deg) translateZ(-300px) translateX(20px) scale(1.4) !important;
   }
 
   .brands-slider {
