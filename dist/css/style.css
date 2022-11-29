@@ -716,13 +716,6 @@ template {
 @font-face {
   font-family: "FuturaPT";
   font-display: swap;
-  src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "FuturaPT";
-  font-display: swap;
   src: url("../fonts/FuturaPT-BookObl.woff2") format("woff2"), url("../fonts/FuturaPT-BookObl.woff") format("woff"), url("../fonts/FuturaPT-BookObl.ttf") format("ttf");
   font-weight: 400;
 }
@@ -730,7 +723,7 @@ template {
 @font-face {
   font-family: "FuturaPT";
   font-display: swap;
-  src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.ttf") format("ttf");
+  src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -752,6 +745,13 @@ template {
   font-family: "FuturaPT";
   font-display: swap;
   src: url("../fonts/FuturaPT-ExtraBoldObl.woff2") format("woff2"), url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -781,13 +781,6 @@ template {
   font-display: swap;
   src: url("../fonts/FuturaPT-LightObl.woff2") format("woff2"), url("../fonts/FuturaPT-LightObl.woff") format("woff"), url("../fonts/FuturaPT-LightObl.ttf") format("ttf");
   font-weight: 400;
-}
-
-@font-face {
-  font-family: "FuturaPT";
-  font-display: swap;
-  src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("ttf");
-  font-weight: 500;
 }
 
 @font-face {
@@ -851,6 +844,13 @@ template {
   font-display: swap;
   src: url("../fonts/FuturaPTCond-MediumObl.woff2") format("woff2"), url("../fonts/FuturaPTCond-MediumObl.woff") format("woff"), url("../fonts/FuturaPTCond-MediumObl.ttf") format("ttf");
   font-weight: 400;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("ttf");
+  font-weight: 500;
 }
 
 * {
@@ -942,18 +942,24 @@ body:after {
 }
 
 .decor__second {
-  top: -180px;
+  top: -325px;
   right: -89px;
 }
 
 .decor__third {
-  bottom: -250px;
+  bottom: -327px;
   left: -89px;
 }
 
 .decor__fourth {
-  bottom: -200px;
-  right: -407px;
+  bottom: -117px;
+  right: -105px;
+}
+
+.decor__last {
+  bottom: 137px;
+  right: 50%;
+  width: 206px;
 }
 
 .header {

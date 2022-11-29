@@ -82,15 +82,20 @@ body {
         left: -115px;
     }
     &__second {
-        top: -180px;
+        top: -325px;
         right: -89px;
     }
     &__third {
-        bottom: -250px;
+        bottom: -327px;
         left: -89px;
     }
     &__fourth {
-        bottom: -200px;
-        right: -407px;
+        bottom: -117px;
+        right: -105px;
+    }
+    &__last {
+        bottom: 137px;
+        right: 50%;
+        width: 206px;
     }
 }
