@@ -42,6 +42,7 @@
     margin-top: 0;
     padding-top: 0 !important;
     word-break: break-word;
+    margin-bottom: 24px;
     @media all and (max-width: 1320px) {
         font-size: 20px;
         line-height: 150%;
@@ -51,7 +52,6 @@
 }
 .reviews-block-top {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     @media all and (max-width: 1320px) {
         align-items: flex-start;
@@ -60,7 +60,7 @@
 .reviews-logo {
     position: relative;
     width: 29%;
-    padding: 63px 0px 55px 0px;
+    padding: 40px 0px 55px 0px;
     @media all and (max-width: 1320px) {
         width: 108px;
         padding-top: 25px;
@@ -87,8 +87,10 @@
     }
 }
 .reviews-logo img {
+    width: 100%;
     display: block;
     margin: 0 auto;
+    max-width: 201px;
 }
 .reviews-name  span {
     font-weight: 500;
@@ -109,6 +111,7 @@
     line-height: 150%;
     color: #545454;
     margin-bottom: 0;
+    margin-top: 27px;
     @media all and (max-width: 1320px) {
         font-size: 16px;
         line-height: 150%;

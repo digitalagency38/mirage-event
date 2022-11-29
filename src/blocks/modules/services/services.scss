@@ -1,6 +1,6 @@
 .services-block {
     margin-bottom: 170px;
-    padding-top: 69px;
+    padding-top: 80px;
     position: relative;
 }
 .services-block-flex {
@@ -8,7 +8,7 @@
     grid-template-columns: 452px 1fr;
     grid-gap: 21px;
     justify-content: space-between;
-    max-width: 1363px;
+    max-width: 1381px;
     @media all and (max-width: 1320px) {
         display: block;
     }
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 46px 20px 35px;
+    padding: 20px 36px 20px 20px;
     background: rgba(255, 255, 255, 0.02);
     box-shadow: inset 15.2px -15.2px 15.2px rgba(165, 165, 165, 0.028), inset -15.2px 15.2px 15.2px rgba(255, 255, 255, 0.028);
     backdrop-filter: blur(17.936px);
@@ -63,10 +63,11 @@
     font-weight: 700;
     line-height: 60px;
     color: #fff;
+    margin-bottom: 50px;
 }
 .services-block-left-item-price {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     width: calc(100% - 100px);
     box-sizing: border-box;
@@ -78,10 +79,14 @@
     box-shadow: inset 15.2px -15.2px 15.2px rgba(165, 165, 165, 0.028), inset -15.2px 15.2px 15.2px rgba(255, 255, 255, 0.028);
     backdrop-filter: blur(17.936px);
     border-radius: 10px;
-    padding: 7px 0px;
+    padding: 10px 0px;
     max-width: 140px;
     text-align: center;
     margin-top: 10px;
+}
+.services-block-left-item-price span {
+    margin-bottom: 5px;
+    display: inline-block;
 }
 .services-block-right {
     border-radius: 20px;
@@ -104,7 +109,7 @@
     box-shadow: inset 15.2px -15.2px 15.2px rgba(165, 165, 165, 0.028), inset -15.2px 15.2px 15.2px rgba(255, 255, 255, 0.028);
     backdrop-filter: blur(17.936px);
     border-radius: 10px;
-    margin-top: 52px;
+    margin-top: 40px;
     @media all and (max-width: 1320px) {
         margin-top: 20px;
         flex-direction: column;

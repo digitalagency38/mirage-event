@@ -702,6 +702,13 @@ template {
 @font-face {
   font-family: "FuturaPT";
   font-display: swap;
+  src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
   src: url("../fonts/FuturaPT-BoldObl.woff2") format("woff2"), url("../fonts/FuturaPT-BoldObl.woff") format("woff"), url("../fonts/FuturaPT-BoldObl.ttf") format("ttf");
   font-weight: 400;
 }
@@ -718,13 +725,6 @@ template {
   font-display: swap;
   src: url("../fonts/FuturaPT-BookObl.woff2") format("woff2"), url("../fonts/FuturaPT-BookObl.woff") format("woff"), url("../fonts/FuturaPT-BookObl.ttf") format("ttf");
   font-weight: 400;
-}
-
-@font-face {
-  font-family: "FuturaPT";
-  font-display: swap;
-  src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT-Bold.ttf") format("ttf");
-  font-weight: 700;
 }
 
 @font-face {
@@ -1059,7 +1059,7 @@ body:after {
 
 .footer__in {
   border-top: 1px solid #fff;
-  margin-top: 100px;
+  margin-top: 110px;
   padding-top: 48px;
   padding-bottom: 90px;
 }
@@ -1090,7 +1090,7 @@ body:after {
 }
 
 .organisation-block-left {
-  width: 46%;
+  width: 53%;
   padding-top: 20px;
 }
 
@@ -1120,7 +1120,7 @@ body:after {
   font-size: 64px;
   line-height: 80px;
   font-weight: 700;
-  padding-top: 9px;
+  padding-top: 37px;
   margin-bottom: 30px;
 }
 
@@ -1191,7 +1191,7 @@ body:after {
   border-radius: 10px;
   color: #fff;
   width: 100%;
-  margin-top: 63px;
+  margin-top: 83px;
   background: rgba(217, 217, 217, 0.028);
   box-shadow: inset 15.2px -15.2px 15.2px rgba(165, 165, 165, 0.028), inset -15.2px 15.2px 15.2px rgba(255, 255, 255, 0.028);
   -webkit-backdrop-filter: blur(17.936px);
@@ -1233,7 +1233,7 @@ body:after {
 }
 
 .why-us-block {
-  padding-top: 127px;
+  padding-top: 131px;
   margin-bottom: 39px;
 }
 
@@ -1245,7 +1245,7 @@ body:after {
 
 .why-us__item {
   text-align: center;
-  padding: 20px 40px 18px;
+  padding: 20px 40px 20px;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
   border-radius: 20px;
@@ -1258,6 +1258,9 @@ body:after {
   color: #E7BA7A;
   line-height: 150%;
   margin-bottom: 11px;
+  max-width: 380px;
+  margin: 0 auto;
+  margin-bottom: 7px;
 }
 
 .why-us__item p {
@@ -1272,6 +1275,10 @@ body:after {
   color: #fff;
   font-weight: 700;
   margin-bottom: 48px;
+}
+
+.why-us__item img {
+  margin-bottom: 22px;
 }
 
 .places-block {
@@ -1290,7 +1297,7 @@ body:after {
 
 .places-and-cases-block {
   position: relative;
-  padding-top: 111px;
+  padding-top: 123px;
   padding-bottom: 150px;
   overflow: hidden;
   z-index: 2;
@@ -1300,7 +1307,7 @@ body:after {
   perspective: 1000px;
   transform-style: preserve-3d;
   position: relative;
-  padding-top: 150px;
+  padding-top: 140px;
 }
 
 .places-and-cases-block__in {
@@ -1377,6 +1384,7 @@ body:after {
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
+  margin-top: 0;
 }
 
 .cases-block-item-slider {
@@ -1419,7 +1427,7 @@ body:after {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 33px;
+  margin-bottom: 48px;
 }
 
 .places-and-cases-block__top .owl-nav {
@@ -1483,8 +1491,8 @@ body:after {
 }
 
 .slider-icons-item {
-  width: 33%;
-  padding-bottom: 25px;
+  width: 28%;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
 }
@@ -1524,8 +1532,8 @@ body:after {
   /* margin-top: 160px; */
   perspective: 1000px;
   transform-style: preserve-3d;
-  padding: 101px 100px 110px;
-  top: 106px;
+  padding: 58px 100px 110px;
+  top: 140px;
 }
 
 .form-block-first__background {
@@ -1552,7 +1560,7 @@ body:after {
 
 .services-block {
   margin-bottom: 170px;
-  padding-top: 69px;
+  padding-top: 80px;
   position: relative;
 }
 
@@ -1561,7 +1569,7 @@ body:after {
   grid-template-columns: 452px 1fr;
   grid-gap: 21px;
   justify-content: space-between;
-  max-width: 1363px;
+  max-width: 1381px;
 }
 
 .services-block-right img {
@@ -1577,7 +1585,7 @@ body:after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 46px 20px 35px;
+  padding: 20px 36px 20px 20px;
   background: rgba(255, 255, 255, 0.02);
   box-shadow: inset 15.2px -15.2px 15.2px rgba(165, 165, 165, 0.028), inset -15.2px 15.2px 15.2px rgba(255, 255, 255, 0.028);
   -webkit-backdrop-filter: blur(17.936px);
@@ -1608,11 +1616,12 @@ body:after {
   font-weight: 700;
   line-height: 60px;
   color: #fff;
+  margin-bottom: 50px;
 }
 
 .services-block-left-item-price {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   width: calc(100% - 100px);
   box-sizing: border-box;
@@ -1626,10 +1635,15 @@ body:after {
   -webkit-backdrop-filter: blur(17.936px);
           backdrop-filter: blur(17.936px);
   border-radius: 10px;
-  padding: 7px 0px;
+  padding: 10px 0px;
   max-width: 140px;
   text-align: center;
   margin-top: 10px;
+}
+
+.services-block-left-item-price span {
+  margin-bottom: 5px;
+  display: inline-block;
 }
 
 .services-block-right {
@@ -1657,7 +1671,7 @@ body:after {
   -webkit-backdrop-filter: blur(17.936px);
           backdrop-filter: blur(17.936px);
   border-radius: 10px;
-  margin-top: 52px;
+  margin-top: 40px;
 }
 
 .services-block-right-form span {
@@ -1708,7 +1722,7 @@ body:after {
 
 .company-block {
   position: relative;
-  padding-bottom: 130px;
+  padding-bottom: 163px;
 }
 
 .company-block .owl-dots {
@@ -1734,7 +1748,7 @@ body:after {
 }
 
 .company-block__in {
-  padding-top: 34px;
+  padding-top: 13px;
 }
 
 .company-block__container {
@@ -1870,18 +1884,18 @@ body:after {
   margin-top: 0;
   padding-top: 0 !important;
   word-break: break-word;
+  margin-bottom: 24px;
 }
 
 .reviews-block-top {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 .reviews-logo {
   position: relative;
   width: 29%;
-  padding: 63px 0px 55px 0px;
+  padding: 40px 0px 55px 0px;
 }
 
 .reviews-logo::before {
@@ -1902,8 +1916,10 @@ body:after {
 }
 
 .reviews-logo img {
+  width: 100%;
   display: block;
   margin: 0 auto;
+  max-width: 201px;
 }
 
 .reviews-name span {
@@ -1920,6 +1936,7 @@ body:after {
   line-height: 150%;
   color: #545454;
   margin-bottom: 0;
+  margin-top: 27px;
 }
 
 /* вопросы */
@@ -1929,6 +1946,7 @@ body:after {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  padding: 8px;
 }
 
 .faq-block__item {
@@ -2003,7 +2021,7 @@ body:after {
 .contacts-block-left {
   width: 40%;
   color: #fff;
-  padding-top: 51px;
+  padding-top: 58px;
 }
 
 .contacts-block-right {
@@ -2046,6 +2064,7 @@ body:after {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
+  margin-bottom: 50px;
 }
 
 .contacts-block-left span {
@@ -2087,6 +2106,10 @@ body:after {
   width: 100%;
   height: 454px;
   background: #d9d9d9;
+}
+
+.contacts-social img {
+  margin-right: 10px;
 }
 
 @media all and (min-width: 1321px) {
