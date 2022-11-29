@@ -13,13 +13,19 @@
 @font-face {
 	font-family: "FuturaPT";
 	font-display: swap;
+	src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("ttf");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "FuturaPT";
+	font-display: swap;
 	src: url("../fonts/FuturaPT-BookObl.woff2") format("woff2"), url("../fonts/FuturaPT-BookObl.woff") format("woff"), url("../fonts/FuturaPT-BookObl.ttf") format("ttf");
 	font-weight: 400;
 }
 @font-face {
 	font-family: "FuturaPT";
 	font-display: swap;
-	src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("ttf");
+	src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.ttf") format("ttf");
 	font-weight: 400;
 }
 @font-face {
@@ -38,12 +44,6 @@
 	font-family: "FuturaPT";
 	font-display: swap;
 	src: url("../fonts/FuturaPT-ExtraBoldObl.woff2") format("woff2"), url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("ttf");
-	font-weight: 400;
-}
-@font-face {
-	font-family: "FuturaPT";
-	font-display: swap;
-	src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.ttf") format("ttf");
 	font-weight: 400;
 }
 @font-face {
@@ -73,7 +73,19 @@
 @font-face {
 	font-family: "FuturaPT";
 	font-display: swap;
+	src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("ttf");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "FuturaPT";
+	font-display: swap;
 	src: url("../fonts/FuturaPT-MediumObl.woff2") format("woff2"), url("../fonts/FuturaPT-MediumObl.woff") format("woff"), url("../fonts/FuturaPT-MediumObl.ttf") format("ttf");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "FuturaPTCond";
+	font-display: swap;
+	src: url("../fonts/FuturaPTCond-BoldObl.woff2") format("woff2"), url("../fonts/FuturaPTCond-BoldObl.woff") format("woff"), url("../fonts/FuturaPTCond-BoldObl.ttf") format("ttf");
 	font-weight: 400;
 }
 @font-face {
@@ -81,12 +93,6 @@
 	font-display: swap;
 	src: url("../fonts/FuturaPTCond-Bold.woff2") format("woff2"), url("../fonts/FuturaPTCond-Bold.woff") format("woff"), url("../fonts/FuturaPTCond-Bold.ttf") format("ttf");
 	font-weight: 700;
-}
-@font-face {
-	font-family: "FuturaPTCond";
-	font-display: swap;
-	src: url("../fonts/FuturaPTCond-BoldObl.woff2") format("woff2"), url("../fonts/FuturaPTCond-BoldObl.woff") format("woff"), url("../fonts/FuturaPTCond-BoldObl.ttf") format("ttf");
-	font-weight: 400;
 }
 @font-face {
 	font-family: "FuturaPTCond";
@@ -123,10 +129,4 @@
 	font-display: swap;
 	src: url("../fonts/FuturaPTCond-MediumObl.woff2") format("woff2"), url("../fonts/FuturaPTCond-MediumObl.woff") format("woff"), url("../fonts/FuturaPTCond-MediumObl.ttf") format("ttf");
 	font-weight: 400;
-}
-@font-face {
-	font-family: "FuturaPT";
-	font-display: swap;
-	src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("ttf");
-	font-weight: 500;
 }

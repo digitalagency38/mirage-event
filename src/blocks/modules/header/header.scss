@@ -63,6 +63,10 @@
     font-size: 20px;
     line-height: 26px;
 }
+.header__middle a:hover {
+    color: #E0A755;
+    border-bottom: 1px solid #E0A755;
+}
 .header-number a {
     white-space: nowrap;
 }
@@ -83,7 +87,9 @@
         display: none;
     }
 }
-
+.header__in button:hover {
+    background-color: #E0A755;
+}
 .header__menu-opener {
     @media all and (min-width: 1321px) {
         display: none;

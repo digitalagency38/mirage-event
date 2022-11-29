@@ -42,7 +42,7 @@
     box-sizing: border-box;
     cursor: pointer;
     &.isActive {
-        background: #253756;
+        background: #E0A755;
         img {
             filter: brightness(10);
         }
@@ -136,6 +136,11 @@
         width: 100%;
         margin-top: 20px;
     } 
+}
+.services-block-right-form button:hover {
+    background: #E0A755;
+    color: #fff;
+    cursor: pointer;
 }
 .services-block-right-text {
     margin-top: 40px;
