@@ -45,7 +45,7 @@ $(document).ready(function() {
                   trigger: '.wrapper',
                   start: "top bottom", // the default values
                   end: "bottom bottom",
-                  markers: true,
+                //   markers: true,
                   scrub: 2,
                 },
             });
