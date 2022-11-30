@@ -44,6 +44,7 @@
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
     "carouzel": "^1.1.2",
+    "gsap": "^3.11.3",
     "jquery": "^3.6.1",
     "owl.carousel.es6": "^3.0.2"
   }

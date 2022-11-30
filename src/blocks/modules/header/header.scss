@@ -1,6 +1,10 @@
 
 .header {
     padding-top: 30px;
+    @media all and (max-width: 1320px) {
+        position: relative;
+        z-index: 11;
+    }
 }
 .header__in {
     display: flex;
@@ -95,9 +99,32 @@
         display: none;
     }
     font-size: 0;
-    padding: 7px;
     background: #E7BA7A;
     border-radius: 10px;
     margin-left: 18px;
     cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: all .3s ease;
+        &:last-child {
+            transform: translate(200%, -50%);
+        }
+    }
+    &.isOpened {
+        img {
+            &:first-child {
+                transform: translate(-200%, -50%);
+            }
+            &:last-child {
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
 }

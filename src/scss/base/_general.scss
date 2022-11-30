@@ -26,6 +26,9 @@ body {
     background:  url('../img/sharp.png') 50% 0 / cover repeat;
     z-index: 2;
     overflow: hidden;
+    // @media all and (max-width: 1320px) {
+    //     padding-top: 100px;
+    // }
 }
 .container {
     max-width: 1486px;
@@ -83,7 +86,7 @@ body {
         height: 122px;
     }
     &__first {
-        top: 784px;
+        top: 1184px;
         left: -115px;
     }
     &__second {
@@ -102,5 +105,9 @@ body {
         bottom: 137px;
         right: 50%;
         width: 206px;
+        display: none;
     }
+}
+.isOverflowed {
+    overflow: hidden;
 }

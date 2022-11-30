@@ -4,7 +4,7 @@
         <div class="places-and-cases-block__background rotateOnMouseMove" data-animatespeed="1400"></div>
         <div class="places-and-cases-block__in container">
             <div class="places-and-cases-block__top places-block__top">
-                <h2 class="title">Наши площадки</h2>
+                <h2 class="title wow fadeInDown" data-wow-delay="0s">Наши площадки</h2>
                 <div class="global__arrows places-block__top-arrows">
                     <div class="global__arrow global__arrow--prev"></div>
                     <div class="global__arrow global__arrow--next"></div>
@@ -12,7 +12,7 @@
             </div>
             <div class="places-block owl-carousel">
                 @@for (i = 0; i < 4; i++) {
-                    <div class="places-block-item" style="--background: url('../img/5.png');">
+                    <div class="places-block-item wow zoomIn" data-wow-delay="0s" style="--background: url('../img/5.png');">
                         <div class="places-logo">
                             <img src="img/amstel.png" alt="logo">
                         </div>
@@ -24,15 +24,15 @@
                 }              
             </div>
             <div class="places-and-cases-block__top cases-block__top">
-                <h2 class="title">Наши кейсы</h2>
-                <div class="global__arrows cases-block__top-arrows">
+                <h2 class="title wow fadeInDown" data-wow-delay="0s">Наши кейсы</h2>
+                <div class="global__arrows cases-block__top-arrows wow fadeInDown" data-wow-delay="0.3s">
                     <div class="global__arrow global__arrow--prev"></div>
                     <div class="global__arrow global__arrow--next"></div>
                 </div>
             </div>
             <div class="cases-block owl-carousel">
                         @@for (i = 0; i < 4; i++) {
-                            <div class="cases-block-item">
+                            <div class="cases-block-item wow zoomIn" data-wow-delay="0s">
                                 <div class="cases-block-item-slider owl-carousel">
                                     @@for (i = 0; i < 4; i++) {
                                         <img src="img/slider.png" width="100%" alt="image">
@@ -76,7 +76,7 @@
                         }
             </div>
 
-            <div class="form-block-first">
+            <div class="form-block-first wow zoomIn" data-wow-delay="0s">
                 <div class="form-block-first__background rotateOnMouseMove" data-animatespeed="300"></div>
                 <h2>Хотите так же?</h2>
                 <div class="form">
