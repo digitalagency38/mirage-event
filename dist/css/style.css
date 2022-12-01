@@ -2071,7 +2071,21 @@ Copyright (c) 2013 Daniel Eden
 @font-face {
   font-family: "FuturaPT";
   font-display: swap;
+  src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
   src: url("../fonts/FuturaPT-BookObl.woff2") format("woff2"), url("../fonts/FuturaPT-BookObl.woff") format("woff"), url("../fonts/FuturaPT-BookObl.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -2092,20 +2106,6 @@ Copyright (c) 2013 Daniel Eden
 @font-face {
   font-family: "FuturaPT";
   font-display: swap;
-  src: url("../fonts/FuturaPT-ExtraBoldObl.woff2") format("woff2"), url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "FuturaPT";
-  font-display: swap;
-  src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "FuturaPT";
-  font-display: swap;
   src: url("../fonts/FuturaPT-Heavy.woff2") format("woff2"), url("../fonts/FuturaPT-Heavy.woff") format("woff"), url("../fonts/FuturaPT-Heavy.ttf") format("ttf");
   font-weight: 800;
 }
@@ -2113,7 +2113,7 @@ Copyright (c) 2013 Daniel Eden
 @font-face {
   font-family: "FuturaPT";
   font-display: swap;
-  src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("ttf");
+  src: url("../fonts/FuturaPT-ExtraBoldObl.woff2") format("woff2"), url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -2121,13 +2121,6 @@ Copyright (c) 2013 Daniel Eden
   font-family: "FuturaPT";
   font-display: swap;
   src: url("../fonts/FuturaPT-HeavyObl.woff2") format("woff2"), url("../fonts/FuturaPT-HeavyObl.woff") format("woff"), url("../fonts/FuturaPT-HeavyObl.ttf") format("ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "FuturaPT";
-  font-display: swap;
-  src: url("../fonts/FuturaPT-LightObl.woff2") format("woff2"), url("../fonts/FuturaPT-LightObl.woff") format("woff"), url("../fonts/FuturaPT-LightObl.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -2149,6 +2142,13 @@ Copyright (c) 2013 Daniel Eden
   font-family: "FuturaPT";
   font-display: swap;
   src: url("../fonts/FuturaPT-MediumObl.woff2") format("woff2"), url("../fonts/FuturaPT-MediumObl.woff") format("woff"), url("../fonts/FuturaPT-MediumObl.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-LightObl.woff2") format("woff2"), url("../fonts/FuturaPT-LightObl.woff") format("woff"), url("../fonts/FuturaPT-LightObl.ttf") format("ttf");
   font-weight: 400;
 }
 
@@ -2190,15 +2190,15 @@ Copyright (c) 2013 Daniel Eden
 @font-face {
   font-family: "FuturaPTCond";
   font-display: swap;
-  src: url("../fonts/FuturaPTCond-ExtraBoldObl.woff2") format("woff2"), url("../fonts/FuturaPTCond-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPTCond-ExtraBoldObl.ttf") format("ttf");
-  font-weight: 400;
+  src: url("../fonts/FuturaPTCond-Medium.woff2") format("woff2"), url("../fonts/FuturaPTCond-Medium.woff") format("woff"), url("../fonts/FuturaPTCond-Medium.ttf") format("ttf");
+  font-weight: 500;
 }
 
 @font-face {
   font-family: "FuturaPTCond";
   font-display: swap;
-  src: url("../fonts/FuturaPTCond-Medium.woff2") format("woff2"), url("../fonts/FuturaPTCond-Medium.woff") format("woff"), url("../fonts/FuturaPTCond-Medium.ttf") format("ttf");
-  font-weight: 500;
+  src: url("../fonts/FuturaPTCond-ExtraBoldObl.woff2") format("woff2"), url("../fonts/FuturaPTCond-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPTCond-ExtraBoldObl.ttf") format("ttf");
+  font-weight: 400;
 }
 
 @font-face {
@@ -4215,6 +4215,11 @@ body:after {
   }
 }
 
+@media all and (max-width: 900px) {
+  .no-webp body:after{
+    background: url("../img/bg_mobile.png") 50% 0/cover repeat; }
+}
+
 @media all and (max-width: 720px) {
   .why-us__in {
     grid-template-columns: repeat(1, 1fr);
@@ -4234,3 +4239,8 @@ body:after {
 .webp .modal__background:after{ background: url(../img/sharp2.webp) 50% 50%/115% no-repeat; }
 
 .webp .mobileMenu:after{ background: url(../img/sharp.webp) 50% 0/cover repeat, url(../img/bg.webp) 50% 0/cover repeat; }
+
+@media all and (max-width: 900px){
+
+  .webp body:after{ background: url(../img/bg_mobile.webp) 50% 0/cover repeat; }
+}

@@ -19,6 +19,10 @@ body {
         background:  url('../img/bg.png') 50% 0 / cover repeat;
         mix-blend-mode: multiply;
 
+        @media all and (max-width: 900px) {
+            background:  url('../img/bg_mobile.png') 50% 0 / cover repeat;
+        }
+
     }
 }
 .wrapper {
